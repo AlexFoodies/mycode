@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intital-scale=1.0">
+    <title>Basic loop example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="salesapp.js"></script>
+  </head>
+  <body>
+    <div class="container">
+  <h1>Sales Tax Calculation Application</h1>
+      <label>Cost Price</label>
+      <input type="text" id="costprice" onclick="this.value='' " placeholder="Enter the costprice"> <br><br>
+
+      <!--initial cost price-->
+      <label>Sales Tax</label>
+      <input type="text" id="salestax" onclick="this.value=''" placeholder="Enter the salestax"><br><br>
+      <!--initial sales tax-->
+      <button type="submit" onclick="CalculateSales()" value="submit" name="submit" id="Sumbitbutton">Submit</button>
+      <br><br>
+      <label>Total Cost Price</label>
+      <input type="text" id ="totalCostPrice" placeholder="Total Cost Price"><br><br>
+      <label>Total Salex Tax</label>
+      <input type="text" id="totalSalesTax1" placeholder="Total Sales Tax">
+    
+   </div>
+  
+</body>
+</html>
